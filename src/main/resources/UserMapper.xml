@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mapper nameSpace="com.hdn.mapper.UserMapper">
+
+    <select id="selectUserById" resultType="com.hdn.model.User">
+        select * from users where id = ?
+    </select>
+
+</mapper>
